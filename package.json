@@ -11,14 +11,18 @@
   "license": "MIT",
   "scripts": {
     "lint": "vue-cli-service lint",
-    "test:integration": "jest --config tests/integration/jest.config.js",
+    "test:integration": "run-s test:integration:* test:integration:mixin:*",
+    "test:integration:default": "jest --config tests/integration/jest.config.js",
+    "test:integration:name": "TEST_NAME=true yarn test:integration:default",
+    "test:integration:mixin:default": "TEST_MIXIN=true yarn test:integration:default",
+    "test:integration:mixin:name": "TEST_MIXIN=true TEST_NAME=true yarn test:integration:default",
     "nuxt:build": "nuxt build tests/fixtures/nuxt",
     "nuxt:start": "nuxt start tests/fixtures/nuxt",
     "start:nuxt": "run-s nuxt:build nuxt:start",
     "release": "standard-version"
   },
   "dependencies": {
-    "vue-uid": "^0.3.0"
+    "vue-uid": "^0.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^3.1.5",
@@ -27,6 +31,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
+    "consola": "^2.3.0",
     "eslint": "^5.9.0",
     "eslint-plugin-vue": "^4.7.1",
     "jest": "^23.6.0",

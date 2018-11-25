@@ -2596,6 +2596,17 @@ consola@^2.0.0-1, consola@^2.0.7, consola@^2.2.4, consola@^2.2.6:
     std-env "^2.1.1"
     string-width "^2.1.1"
 
+consola@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.3.0.tgz#256b80a927234351d512a4e5693eac9cf8a572b9"
+  integrity sha512-gsawoQfj4DtnwsaPrabFpFOZBxWpzpT+E9fu6YAdFKO3NvBOOsFcQl/cskDOoIDDLMkLZvm4jjMWvSEelIumIw==
+  dependencies:
+    chalk "^2.4.1"
+    dayjs "^1.7.7"
+    figures "^2.0.0"
+    std-env "^2.2.1"
+    string-width "^2.1.1"
+
 console-browserify@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.1.0.tgz#f0241c45730a9fc6323b206dbf38edc741d0bb10"
@@ -10547,10 +10558,10 @@ vue-template-es2015-compiler@^1.6.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
   integrity sha512-x3LV3wdmmERhVCYy3quqA57NJW7F3i6faas++pJQWtknWT+n7k30F4TVdHvCLn48peTJFRvCpxs3UuFPqgeELg==
 
-vue-uid@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vue-uid/-/vue-uid-0.3.0.tgz#dc22b8ac98b6fb51b8481ddcc60077d6206e4c0b"
-  integrity sha512-tZ8/QQ0xO5rFLPCllwLBnBOrcWdsMkhy/+co2KwcKg0J1qwpHTGfwfOTMmNc1Df5NTVJ9kQt8SVNF/8JFB7Mow==
+vue-uid@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vue-uid/-/vue-uid-0.4.0.tgz#a654703e80646d677901f20f04d19617671c364b"
+  integrity sha512-ud0QyYcZXL0tuhwrMni1qJiUwMvFZgYICTzaFIGsrp827MJpb6YcvxM9iPbr1g+xhaHznH6v+mnHJJ437o40PA==
   dependencies:
     vue "^2.5.17"
 
