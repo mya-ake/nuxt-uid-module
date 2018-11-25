@@ -1,6 +1,6 @@
 {
   "name": "nuxt-uid-module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Unique ID for Vue.js component with Nuxt.js.",
   "main": "src/module.js",
   "repository": "https://github.com/mya-ake/nuxt-uid-module.git",
