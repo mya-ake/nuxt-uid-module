@@ -1,3 +1,12 @@
+import consola from 'consola';
+
+const env = {
+  name: !!process.env.TEST_NAME,
+  mixin: !!process.env.TEST_MIXIN,
+};
+
+consola.info('Start test', env);
+
 const BASE_URL = 'http://localhost:3000';
 
 describe('nuxt uid module', () => {
@@ -15,6 +24,11 @@ describe('nuxt uid module', () => {
 
   afterAll(async () => {
     await page.close();
+  });
+
+  it('env check', async () => {
+    const text = await getText('#env');
+    expect(text).toBe(JSON.stringify(env));
   });
 
   it('has uid text', async () => {
