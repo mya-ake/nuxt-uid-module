@@ -1,5 +1,9 @@
 # nuxt-uid-module
 
+[![npm version](https://badge.fury.io/js/nuxt-uid-module.svg)](https://badge.fury.io/js/nuxt-uid-module)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+
 [vue-uid](https://github.com/mya-ake/vue-uid) for Nuxt.js.
 
 ## Install
