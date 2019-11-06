@@ -33,7 +33,7 @@
     "babel-jest": "^24.9.0",
     "consola": "^2.3.0",
     "eslint": "^5.9.0",
-    "eslint-plugin-vue": "^5.2.3",
+    "eslint-plugin-vue": "^6.0.0",
     "jest": "^24.9.0",
     "jest-puppeteer": "^4.3.0",
     "npm-run-all": "^4.1.3",
